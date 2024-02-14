@@ -1,0 +1,71 @@
+body {
+    text-align: center;
+    margin: 100px;
+    background-size: cover;
+}
+h2 {
+    margin-bottom : 10px;
+    color:chocolate;
+}
+h4 {
+    color:#008CBA
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px;
+    background: url("../img/bg1.jpg");
+    background-size: cover;
+
+    color:#ccc;
+    font-weight: 1500;
+    font-size: 15px;
+}
+p {
+    color:darkolivegreen;
+    font-size: 15px;
+    
+}
+
+input {
+    padding: 5px;
+    margin-right: 7px;
+    width: 25%;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;   
+}
+button:hover {
+    background-color: #008CBA; 
+    color: white; 
+  }
+
+
+
+label {
+    color:darkslategrey
+}
+#output {
+    color:darkslategrey
+}
+
+
+#matrix {
+    display: inline-block;
+    border: 3px solid grey;
+    padding: 10px;
+    text-align: center; 
+    width:80px;
+    text-align: center; /* Center the text content horizontally */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the flex items horizontally */
+    align-items: center; 
+    margin: 0 auto;
+}
+table {
+    color:brown;
+}
+
